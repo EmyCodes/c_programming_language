@@ -7,7 +7,7 @@ int main(void)
 	long x;
 	float f;
 	double d;
-	char temp[8];
+	short int temp[8];
 
 	puts("Variables sizes:");
 	printf("Size of char variable c = %d\n", sizeof(c));
