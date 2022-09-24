@@ -14,7 +14,7 @@ int main(void)
 	printf("Variable t = %p\n", t);
 	printf("Variable *t = %d\n", *t);
 
-	*t = 64;	/* ' *t = 64 is SAME as teeny - 64 ' */
+	*t = 64;	/* ' *t = 64 is SAME as teeny = 64 ' */
 	printf("Variable tenny = %d\n", teeny);
 	printf("Variable t = %p\n", t);
 	printf("Variable *t = %d\n", *t);
