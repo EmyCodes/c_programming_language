@@ -1,4 +1,10 @@
 #include <stdio.h>
+/**
+* Exercise 4.1.5
+* Write a program based on HELLO.C where the address of each element of a
+* character array is displayed. Hint: Use a for loop to stomp through each
+* element of the array. Only one pointer variable needs to be used.
+*/
 
 int main(void)
 {
