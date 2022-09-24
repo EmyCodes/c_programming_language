@@ -4,7 +4,8 @@
 
 int main(void)
 {
-	float miles, kilometers;
+	float kilometers, miles; 
+	float *pmiles;
 
 	printf("Enter a value in miles:");
 	scanf("%f", &miles);
@@ -12,5 +13,8 @@ int main(void)
 	kilometers = miles*1.609;
 
 	printf("%.2f miles works out to %.2f kilometers\n", miles, kilometers);
+
+	pmiles = &miles; 		/* initialize pointer */
+	printf("Variable 'miles' is %d bytes long at %p address\n", sizeof(miles), pmiles);
 	return (0);
 }
